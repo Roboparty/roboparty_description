@@ -1,12 +1,12 @@
-Source: roboto-description
+Source: roboparty-description
 Section: misc
 Priority: optional
 Maintainer: RoboParty <2321901849@qq.com>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.0
 
-Package: roboto-description
+Package: roboparty-description
 Architecture: all
-Depends: roboto-base (>= 1.0.0), ${misc:Depends}
+Depends: roboparty-base (>= 1.0.0), ${misc:Depends}
 Description: RoboParty URDF models for all robots
  URDF models, meshes, and mjcf descriptions for all RoboParty robots.

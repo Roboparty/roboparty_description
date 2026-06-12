@@ -1,4 +1,4 @@
-# roboto_description
+# roboparty_description
 
 该仓库用于集中管理 RoboParty 项目的统一机器人 URDF 模型、网格(meshes)和外观仿真文件(MJCF)。
 
@@ -12,7 +12,7 @@
 由于现已采用大一统构建，您可以直接从 APT 源安装即可获取所有机器人类型的模型资源：
 ```bash
 sudo apt update
-sudo apt install roboto-description
+sudo apt install roboparty-description
 ```
 所有的模型文件均会被安装至目标机的 `/opt/roboparty/share/` 目录下。
 

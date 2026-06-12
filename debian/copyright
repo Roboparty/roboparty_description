@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: roboto-description
-Source: https://github.com/wentywenty/roboto_description
+Upstream-Name: roboparty-description
+Source: https://github.com/Roboparty/roboparty_description
 
 Files: *
 Copyright: 2025-2026 RoboParty

@@ -1,4 +1,4 @@
-# roboto_description
+# roboparty_description
 
 This repository manages the unified robot URDF models and visual descriptions (meshes, MJCF, XML) for the RoboParty project.
 
@@ -12,7 +12,7 @@ This repository manages the unified robot URDF models and visual descriptions (m
 You can install the pre-built package directly from the APT repository. The unified package provides assets for all robot models:
 ```bash
 sudo apt update
-sudo apt install roboto-description
+sudo apt install roboparty-description
 ```
 The files will be installed to `/opt/roboparty/share/`.
 

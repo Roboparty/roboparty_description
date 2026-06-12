@@ -1,4 +1,4 @@
-name: Build Roboto Description Deb Package
+name: Build RoboParty Description Deb Package
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
       - name: Upload deb artifact
         uses: actions/upload-artifact@v4
         with:
-          name: roboto-description-v${{ env.PKG_VERSION }}-all
+          name: roboparty-description-v${{ env.PKG_VERSION }}-all
           path: output/*.deb
 
       - name: Release to GitHub
