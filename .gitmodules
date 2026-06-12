@@ -1,4 +1,4 @@
 [submodule "rpo_description"]
 	path = rpo_description
-	url = https://github.com/Roboparty/atom01_description
+	url = https://github.com/Roboparty/rpo_description
 	branch = main
