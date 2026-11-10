@@ -1,6 +1,6 @@
 roboparty-description (1.2.2-1) stable; urgency=medium
 
-  * Add rp1_description and install it to /opt/roboparty/share/.
+  * Add rp1_description and install it to the configured install prefix (default /opt/roboparty)/share/.
 
  -- wentywenty <2321901849@qq.com>  Thu, 29 Oct 2026 10:27:39 +0800
 

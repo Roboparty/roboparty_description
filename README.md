@@ -14,7 +14,7 @@ You can install the pre-built package directly from the APT repository. The unif
 sudo apt update
 sudo apt install roboparty-description
 ```
-The files will be installed to `/opt/roboparty/share/`.
+The files will be installed to `share/` under the configured install prefix (default `/opt/roboparty`).
 
 ## Submodules
 

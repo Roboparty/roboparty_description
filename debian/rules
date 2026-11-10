@@ -1,3 +1,11 @@
 #!/usr/bin/make -f
+
+INSTALL_PREFIX ?= /opt/roboparty
+
 %:
 	dh $@
+
+override_dh_install:
+	dh_install
+	install -d debian/roboparty-description$(INSTALL_PREFIX)/share
+	cp -a rpo_description rp1_description debian/roboparty-description$(INSTALL_PREFIX)/share/

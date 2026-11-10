@@ -14,7 +14,7 @@
 sudo apt update
 sudo apt install roboparty-description
 ```
-所有的模型文件均会被安装至目标机的 `/opt/roboparty/share/` 目录下。
+所有的模型文件均会被安装至目标机的安装前缀（默认 `/opt/roboparty`）下的 `share/` 目录。
 
 ## 子模块说明
 
